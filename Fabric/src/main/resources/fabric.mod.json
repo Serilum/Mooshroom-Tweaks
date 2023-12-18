@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "mooshroomtweaks",
-  "version": "3.3",
+  "version": "3.4",
 
   "name": "Mooshroom Tweaks",
   "description": "A minimalistic mod that tweaks the spawning behaviour of mooshrooms, allowing both red and brown to spawn naturally.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/mooshroom-tweaks",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Mooshroom%20Tweaks",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Mooshroom%20Tweaks"
+    "homepage": "https://serilum.com/mod/mooshroom-tweaks",
+    "sources": "https://github.com/Serilum/Mooshroom-Tweaks",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Mooshroom%20Tweaks"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
