@@ -1,6 +1,7 @@
 package com.natamus.mooshroomtweaks;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.mooshroomtweaks.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.mooshroomtweaks.neoforge.events.NeoForgeMooshroomEvent;
 import com.natamus.mooshroomtweaks.util.Reference;
@@ -14,6 +15,10 @@ import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();

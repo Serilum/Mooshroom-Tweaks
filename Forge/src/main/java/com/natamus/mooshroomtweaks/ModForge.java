@@ -1,6 +1,7 @@
 package com.natamus.mooshroomtweaks;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.mooshroomtweaks.forge.config.IntegrateForgeConfig;
 import com.natamus.mooshroomtweaks.forge.events.ForgeMooshroomEvent;
 import com.natamus.mooshroomtweaks.util.Reference;
@@ -15,6 +16,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
