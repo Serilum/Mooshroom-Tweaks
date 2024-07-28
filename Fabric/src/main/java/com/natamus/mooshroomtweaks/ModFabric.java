@@ -1,6 +1,7 @@
 package com.natamus.mooshroomtweaks;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.mooshroomtweaks.events.MooshroomEvent;
 import com.natamus.mooshroomtweaks.util.Reference;
 import net.fabricmc.api.ModInitializer;
@@ -12,6 +13,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
