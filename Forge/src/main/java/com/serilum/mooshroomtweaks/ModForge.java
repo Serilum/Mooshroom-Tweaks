@@ -1,10 +1,10 @@
-package com.natamus.mooshroomtweaks;
+package com.serilum.mooshroomtweaks;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.mooshroomtweaks.forge.config.IntegrateForgeConfig;
-import com.natamus.mooshroomtweaks.forge.events.ForgeMooshroomEvent;
-import com.natamus.mooshroomtweaks.util.Reference;
+import com.serilum.mooshroomtweaks.forge.config.IntegrateForgeConfig;
+import com.serilum.mooshroomtweaks.forge.events.ForgeMooshroomEvent;
+import com.serilum.mooshroomtweaks.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeMooshroomEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeMooshroomEvent.class);
 	}
 
 	private static void setGlobalConstants() {
