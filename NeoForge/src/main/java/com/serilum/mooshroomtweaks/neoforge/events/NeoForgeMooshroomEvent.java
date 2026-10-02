@@ -1,6 +1,6 @@
-package com.natamus.mooshroomtweaks.neoforge.events;
+package com.serilum.mooshroomtweaks.neoforge.events;
 
-import com.natamus.mooshroomtweaks.events.MooshroomEvent;
+import com.serilum.mooshroomtweaks.events.MooshroomEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 

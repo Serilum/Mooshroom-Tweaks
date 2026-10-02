@@ -1,6 +1,6 @@
-package com.natamus.mooshroomtweaks.forge.events;
+package com.serilum.mooshroomtweaks.forge.events;
 
-import com.natamus.mooshroomtweaks.events.MooshroomEvent;
+import com.serilum.mooshroomtweaks.events.MooshroomEvent;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
