@@ -1,9 +1,9 @@
-package com.natamus.mooshroomtweaks;
+package com.serilum.mooshroomtweaks;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.mooshroomtweaks.events.MooshroomEvent;
-import com.natamus.mooshroomtweaks.util.Reference;
+import com.serilum.mooshroomtweaks.events.MooshroomEvent;
+import com.serilum.mooshroomtweaks.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.minecraft.server.level.ServerLevel;

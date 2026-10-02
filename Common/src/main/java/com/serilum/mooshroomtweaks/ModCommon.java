@@ -1,6 +1,6 @@
-package com.natamus.mooshroomtweaks;
+package com.serilum.mooshroomtweaks;
 
-import com.natamus.mooshroomtweaks.config.ConfigHandler;
+import com.serilum.mooshroomtweaks.config.ConfigHandler;
 
 public class ModCommon {
 

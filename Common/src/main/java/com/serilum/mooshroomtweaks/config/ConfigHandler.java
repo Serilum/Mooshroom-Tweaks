@@ -1,7 +1,7 @@
-package com.natamus.mooshroomtweaks.config;
+package com.serilum.mooshroomtweaks.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.mooshroomtweaks.util.Reference;
+import com.serilum.mooshroomtweaks.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
