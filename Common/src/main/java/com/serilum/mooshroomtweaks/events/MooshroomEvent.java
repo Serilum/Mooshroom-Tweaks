@@ -1,8 +1,8 @@
-package com.natamus.mooshroomtweaks.events;
+package com.serilum.mooshroomtweaks.events;
 
 import com.natamus.collective.functions.EntityFunctions;
-import com.natamus.mooshroomtweaks.config.ConfigHandler;
-import com.natamus.mooshroomtweaks.util.Reference;
+import com.serilum.mooshroomtweaks.config.ConfigHandler;
+import com.serilum.mooshroomtweaks.util.Reference;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.animal.MushroomCow;
 import net.minecraft.world.level.Level;

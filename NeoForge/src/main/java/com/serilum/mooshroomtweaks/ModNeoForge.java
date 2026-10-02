@@ -1,10 +1,10 @@
-package com.natamus.mooshroomtweaks;
+package com.serilum.mooshroomtweaks;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.mooshroomtweaks.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.mooshroomtweaks.neoforge.events.NeoForgeMooshroomEvent;
-import com.natamus.mooshroomtweaks.util.Reference;
+import com.serilum.mooshroomtweaks.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.mooshroomtweaks.neoforge.events.NeoForgeMooshroomEvent;
+import com.serilum.mooshroomtweaks.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
